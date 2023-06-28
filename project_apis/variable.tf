@@ -5,7 +5,7 @@ variable "project_id" {
 
 variable "services" {
   description = "list of apis to be enabled eg:iam.googleapis.com, cloudresourcemanager.googleapis.com"
-  type        = list(string)
+  type        = string
 }
 
 variable "region" {
