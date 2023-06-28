@@ -1,3 +1,8 @@
+variable "project_id" {
+  description = "The id of the project."
+  type        = string
+}
+
 variable "account_id" {
   description = "service account id"
   type        = string
