@@ -14,4 +14,16 @@ variable "members" {
   default     = []
 }
 
+variable "region" {
+  description = "region of deployment"
+  type        = string
+  default     = "europe-west2"
+}
+
+variable "zone" {
+  description = "zone for deployment"
+  type        = string
+  default     = "europe-west2a"
+}
+
 
