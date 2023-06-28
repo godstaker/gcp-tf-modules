@@ -8,3 +8,15 @@ variable "display_name" {
   type        = string
 }
 
+variable "region" {
+  description = "region of deployment"
+  type        = string
+  default     = "europe-west2"
+}
+
+variable "zone" {
+  description = "zone for deployment"
+  type        = string
+  default     = "europe-west2a"
+}
+
